@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto by: Oscar Gallego</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="animation-container">
+        <img src="img/anime.gif" alt="ojos animados" class="animated-anime">
+    </div>
+
+    <div class="container">
+        <h1>Encriptador de Texto</h1>
+        <textarea id="input-text" placeholder="Escriba el texto aquí"></textarea>
+
+
+        <div class="button-container">
+            <button class="color" id="encrypt-btn">Encriptar</button>
+            <button class="color" id="decrypt-btn">Desencriptar</button>
+        </div>
+
+        <textarea id="output-text" placeholder="Resultado de lo que escribió" readonly></textarea>
+        <button id="copy-btn">Copiar</button>
+    </div>
+
+
+    <div id="alert-modal" class="alert-modal">
+        <div class="alert-content">
+            <span id="close-alert" class="close">&times;</span>
+            <p id="alert-message">Por favor, ingrese solo letras minúsculas.</p>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>© 2024 Oscar David Gallego García - ALURA-LATAM Todos los derechos reservados.</p>
+        <div class="animated-text">Encripta tu texto y guardalo</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
