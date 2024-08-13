@@ -1,4 +1,4 @@
-/* Estilos generales (ya existentes) */
+
 body {
     font-family: Arial, sans-serif;
     background: url("img/candado.jpg");
@@ -19,17 +19,17 @@ body {
     }
 }
 .animation-container {
-    position: absolute; /* Posiciona el contenedor en relación a la pantalla */
-    top: 100px; /* Ajusta la distancia desde el borde superior */
+    position: absolute; 
+    top: 100px; 
     left: 50%;
-    transform: translateX(-50%); /* Centra el contenedor horizontalmente */
-    z-index: 10; /* Asegura que esté encima de otros elementos */
+    transform: translateX(-50%); 
+    z-index: 10; 
 }
 
 .animated-anime {
-    width: 500px; /* Ajusta el tamaño según sea necesario */
+    width: 500px; 
     height: auto;
-    animation: bounce 10s infinite; /* Ejemplo de animación */
+    animation: bounce 10s infinite; 
 }
 
 
